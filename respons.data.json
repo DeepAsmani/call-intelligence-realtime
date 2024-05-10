@@ -1,0 +1,62 @@
+{"source": "https://speechtextintech.blob.core.windows.net/audio-input/t3.wav?sv=2021-10-04&st=2024-03-20T05%3A46%3A00Z&se=2024-03-21T05%3A56%3A00Z&sr=b&sp=r&sig=3vjEt1TmFWRKcftReDQof6w4MOb%2BjgWrcB07wKA6AgQ%3D",
+    "timeStamp": "2024-03-20T05:56:02Z",
+    "durationInTicks": 29200000,
+    "duration": "PT2.92S",
+    "combinedRecognizedPhrases": [
+        {
+            "channel": 0,
+            "lexical": "ek samay tha",
+            "itn": "ek samay tha",
+            "maskedITN": "",
+            "display": "Ek samay tha."
+        }
+    ],
+    "recognizedPhrases": [
+        {
+            "recognitionStatus": "Success",
+            "channel": 0,
+            "speaker": 0,
+            "offset": "PT0.28S",
+            "duration": "PT1.06S",
+            "offsetInTicks": 2800000,
+            "durationInTicks": 10600000,
+            "nBest": [
+                {
+                    "confidence": 0.5577688,
+                    "lexical": "ek samay tha",
+                    "itn": "ek samay tha",
+                    "maskedITN": "",
+                    "display": "Ek samay tha."
+                },
+                {
+                    "confidence": 0.5646409,
+                    "lexical": "ek samaya tha",
+                    "itn": "ek samaya tha",
+                    "maskedITN": "",
+                    "display": "ek samaya tha"
+                },
+                {
+                    "confidence": 0.62526125,
+                    "lexical": "ek ka samay tha",
+                    "itn": "ek ka samay tha",
+                    "maskedITN": "",
+                    "display": "ek ka samay tha"
+                },
+                {
+                    "confidence": 0.6088706,
+                    "lexical": "e ka samay tha",
+                    "itn": "e ka samay tha",
+                    "maskedITN": "",
+                    "display": "e ka samay tha"
+                },
+                {
+                    "confidence": 0.5042792,
+                    "lexical": "ek samya tha",
+                    "itn": "ek samya tha",
+                    "maskedITN": "",
+                    "display": "ek samya tha"
+                }
+            ]
+        }
+    ]
+}

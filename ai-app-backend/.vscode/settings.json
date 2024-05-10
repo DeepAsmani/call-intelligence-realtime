@@ -1,0 +1,4 @@
+{
+    "appService.deploySubpath": ".",
+    "appService.defaultWebAppToDeploy": "/subscriptions/f57a7c4c-a847-4043-84a5-1c3e9f622a6d/resourceGroups/OpenAI/providers/Microsoft.Web/sites/speechtextback"
+}

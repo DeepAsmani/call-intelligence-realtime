@@ -1,0 +1,14 @@
+[
+    {
+        "name": "speech",
+        "speech_subscription_key": "b329f8d3f99a4fb39b54cc45c91a042a",
+        "speech_region": "EastUS",
+        "speech_custom_endpoint_id_optional": "https://speechttextai.cognitiveservices.azure.com/",
+        "text_analytics_key": "44fcfb70573346b28e8627dac4a7a475",
+        "text_analytics_endpoint": "https://textanaliticpoc.cognitiveservices.azure.com/",
+        "openai_endpoint": "https://cog-33jpgru4gm5ks.openai.azure.com/",
+        "openai_key": "1fb271cf06534218a1ef0fd8e8708e2c",
+        "openai_deployment_name": "chat",
+        "web_port": "8080"
+    }
+]
