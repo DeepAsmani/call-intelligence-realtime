@@ -49,7 +49,7 @@ export default class BatchPage extends Component {
     // Initially, no file is selected
     selectedFile: null,
     selectedFileName: null,
-    formSelectBatchLanguage: 'en-IN',
+    formSelectBatchLanguage: 'en-US',
     masterTextareaRef: null,
     slaveTextareaRef: null,
     numberingElements: null,
@@ -159,7 +159,7 @@ export default class BatchPage extends Component {
             // ttext.value = '';
             // const jsonString = JSON.stringify(PersonObj);
             // const replacements = JSON.parse(jsonString);
-            console.log(result)
+            // console.log(result)
             // const modifiedConversation = result.map(line => {
               // return line.replace(/Speaker \d/g, match => replacements[match]);
             // });
