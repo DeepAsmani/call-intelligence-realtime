@@ -10,7 +10,6 @@ import App from './App.js';
 
 const speechsdk = require('microsoft-cognitiveservices-speech-sdk')
 var recognizer;
-``
 // const BatchPage  = () => {
 export default class BatchPage extends Component {
 
@@ -288,7 +287,7 @@ export default class BatchPage extends Component {
   async sttFromMic() {
     const tokenObj = await getTokenOrRefresh();
     const speechConfig = speechsdk.SpeechConfig.fromAuthorizationToken(tokenObj.authToken, tokenObj.region);
-    //speechConfig.speechRecognitionLanguage = 'en-US';         
+    speechConfig.speechRecognitionLanguage = 'en-US';         
 
     var convLanguage = document.getElementById("formSelectConvLanguage").value;
 
@@ -455,8 +454,8 @@ export default class BatchPage extends Component {
 
 
                 <select class="form-select" id="formSelectBatchLanguage" style={{ width: "200px" }}>
-                  <option value="en-IN" selected>English (India)</option>
-                  <option value="en-US">English (USA)</option>
+                  <option value="en-IN">English (India)</option>
+                  <option value="en-US" selected>English (USA)</option>
                   <option value="en-GB">English (UK)</option>
                   <option value="es-ES">Spanish (Spain)</option>
                   <option value="es-MX">Spanish (Mexico)</option>

@@ -63,7 +63,7 @@ export default class App extends Component {
   async sttFromMic() {
       const tokenObj = await getTokenOrRefresh();      
       const speechConfig = speechsdk.SpeechConfig.fromAuthorizationToken(tokenObj.authToken, tokenObj.region);
-      //speechConfig.speechRecognitionLanguage = 'en-US';         
+      speechConfig.speechRecognitionLanguage = 'en-US';         
 
       var convLanguage = document.getElementById("formSelectConvLanguage").value;
 
