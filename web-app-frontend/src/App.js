@@ -26,8 +26,8 @@ export default class App extends Component {
         gptExtractedInfo: '',
         gptCustomPrompt: '',
         gptCustomPrompt2: '',
-        showBatchPage: false,
-        activeWindow: "Live"
+        showBatchPage: true,
+        activeWindow: "window2"
       };
   }
 

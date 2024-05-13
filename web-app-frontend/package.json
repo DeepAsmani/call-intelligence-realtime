@@ -47,5 +47,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://call-backend.azurewebsites.net"
+  "proxy": "http://localhost:8080"
 }
